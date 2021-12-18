@@ -12,6 +12,7 @@ function App() {
         these we use react-router-dom as a routing library.something like this
         and then we use react-bootstrap as a library.
       </p>
+      <p>some other text </p>
     </div>
   );
 }
