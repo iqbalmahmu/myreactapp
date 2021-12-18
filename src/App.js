@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+// import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>My name is Foysal Ahmed</h1>
+      <p>
+        I works as a freelancer full stack web developer in Malysia my goal is
+        to make website more interactive. and more dynamics.so far we used react
+        as a frontend tools.leater we make something in node js. and we use
+        mongodb as a database. and we use express as a server. beside one of
+        these we use react-router-dom as a routing library.something like this
+        and then we use react-bootstrap as a library.
+      </p>
+      <p>some other text </p>
     </div>
   );
 }
