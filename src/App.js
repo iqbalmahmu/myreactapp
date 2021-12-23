@@ -1,8 +1,6 @@
-// import React from "react";
+// import Hello from "./mycomponents/Hello";
 
-import Hello from "./mycomponents/Hello";
-
-import Para from "./mycomponents/Para";
+// import Para from "./mycomponents/Para";
 
 // function App() {
 //   return (
@@ -18,12 +16,25 @@ import Para from "./mycomponents/Para";
 // export default App;
 
 function App() {
+  const elemen = {
+    setInterval(
+  () => {
+    
+  }, 1000
+    )
+  };
+
+  
   return (
-    <>
-      <Hello myAge="26" myName="foysal"></Hello>
-      <Hello myAge="27" myName="rad"></Hello>
-      <Para></Para>
-    </>
+    // <>
+    //   setInterval(() =>
+    //   {
+    //     <h1 className="title">
+    //       <span>hello world {new Date().toLocaleTimeString()} </span>
+    //     </h1>
+    //   }
+    //   , 1000);
+    // </>
   );
 }
 
