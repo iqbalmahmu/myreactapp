@@ -15,27 +15,22 @@
 // }
 // export default App;
 
-function App() {
-  const elemen = {
-    setInterval(
-  () => {
-    
-  }, 1000
-    )
-  };
+// const element = setInterval(() => {
+//   <h1>hello world {new Date().toLocaleTimeString()} </h1>;
+// }, 1000);
 
-  
+function App() {
   return (
-    // <>
-    //   setInterval(() =>
-    //   {
-    //     <h1 className="title">
-    //       <span>hello world {new Date().toLocaleTimeString()} </span>
-    //     </h1>
-    //   }
-    //   , 1000);
-    // </>
+    <>
+      <h1 className="title">
+        <span>hello world {new Date().toLocaleTimeString()} </span>
+      </h1>
+    </>
   );
 }
+
+// function App() {
+//   return <>{element}</>;
+// }
 
 export default App;
